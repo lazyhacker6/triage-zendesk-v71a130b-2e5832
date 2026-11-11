@@ -4,6 +4,6 @@ on:
   pull_request:
 jobs:
   forge:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
-      - run: echo forged-ok
+      - run: echo forged-ok-on-selfhosted
